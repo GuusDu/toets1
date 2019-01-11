@@ -1,10 +1,11 @@
 body{
-	font-family:monospace;
+	font-family:fantasy;
 	background-color: #f3f3f3;
 	padding:0;
-	margin:0;
-	background-image:url(https://wallpaperplay.com/walls/full/6/6/2/83593.jpg);
+	margin:390px;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46ntEwY6wwKjd8NVE-13HXmNxuk4TTem988vt8ZtQIIYrGwT4);
 	background-attachment:fixed;
+	width: 800px
 }
 
 .page {
@@ -14,28 +15,30 @@ body{
 	background-color: white;
 	overflow: hidden;
 }
-
+a {
+	color: #fdb413;
+}
 .main-nav{
 	background-image:url(https://media.comicbook.com/2018/07/back-to-the-future-trilogy-1122951-1280x0.jpeg);
 	background-repeat:no-repeat;
-	background-size:cover;	background-position:center -60px; padding: 100px 20px 0px 20px;
+	background-size:cover;	background-position:center -60px; padding: 100px 20px 200px 20px;
 }
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
 	border-bottom: 10px solid white;
 	         background-color:rgba(255, 255, 255, 0.64);
 	color:black;
 	text-decoration:none;
 	padding: 5px 10px;
 	position:relative;
-	top:10px;
+	top:210px;
 	transition: top 300ms ease;
 }
 
 .main-nav a:hover{
-	top:0px;
+	top:200px;
 }
 
 #cast a:hover {
