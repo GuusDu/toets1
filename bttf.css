@@ -15,9 +15,11 @@ body{
 	background-color: white;
 	overflow: hidden;
 }
+
 a {
 	color: #fdb413;
 }
+
 .main-nav{
 	background-image:url(https://media.comicbook.com/2018/07/back-to-the-future-trilogy-1122951-1280x0.jpeg);
 	background-repeat:no-repeat;
@@ -41,7 +43,7 @@ a {
 	top:200px;
 }
 
-#cast a:hover {
+.cast a:hover {
   border-bottom: 2px solid green;
 }
 
@@ -59,3 +61,6 @@ h1 {
   color: aliceblue;
 }
 
+img {
+	float: left;
+	margin-right: 30px
